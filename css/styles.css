@@ -35,7 +35,7 @@ header {
     padding-left: 0.625rem;
 }
 
-header nav {
+header nav ul {
     display: flex;
     list-style-type: none;
 }
