@@ -1,0 +1,11 @@
+#resume-button {
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: #4e9a06;
+    border-color: #4e9a06;
+    border-radius: 8px;
+    cursor: pointer;
+}

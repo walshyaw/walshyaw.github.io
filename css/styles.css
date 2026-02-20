@@ -69,3 +69,7 @@ footer {
     box-shadow: 0 -0.005rem 0.30rem #4e9a06;
     font-size: small;
 }
+
+.pdf {
+    width: 100%;
+}
