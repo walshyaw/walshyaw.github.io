@@ -1,4 +1,7 @@
 #resume-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     width: 100px;
     margin-top: 20px;
@@ -6,6 +9,11 @@
     background-color: black;
     color: #4e9a06;
     border-color: #4e9a06;
+    border-style: solid;
     border-radius: 8px;
     cursor: pointer;
+}
+
+#resume-button:hover {
+    border-color: #60bc09;
 }
