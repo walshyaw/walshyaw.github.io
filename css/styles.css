@@ -17,10 +17,6 @@ body a:hover {
     color: #60bc09;
 }
 
-body a:visited {
-    color: #4e9a06;
-}
-
 header {
     color: #4e9a06;
     display: flex;
