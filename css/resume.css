@@ -1,5 +1,19 @@
 main {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     width: 100%;
+    padding: var(--spacing-md);
+    margin: 0;
+    overflow: hidden;
+}
+
+.pdf {
+    width: 100%;
+    flex: 1;
+    min-height: 50vh;
+    height: 90vh;
 }
 
 #resume-button {
@@ -7,15 +21,18 @@ main {
     justify-content: center;
     align-items: center;
     height: 3.125rem;
-    width: 6.25rem;
+    width: 9.5rem;
     margin: var(--spacing-md) 0;
     background-color: var(--color-bg);
     color: var(--color-primary);
     border: 0.0625rem solid var(--color-primary);
     border-radius: 0.5rem;
     cursor: pointer;
+    font-family: var(--font-main);
 }
 
 #resume-button:hover {
     border-color: var(--color-hover);
+    box-shadow: 0 0 0.3rem var(--color-primary);
+    color: var(--color-hover);
 }
