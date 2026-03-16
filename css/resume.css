@@ -1,19 +1,21 @@
+main {
+    width: 100%;
+}
+
 #resume-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: black;
-    color: #4e9a06;
-    border-color: #4e9a06;
-    border-style: solid;
-    border-radius: 8px;
+    height: 3.125rem;
+    width: 6.25rem;
+    margin: var(--spacing-md) 0;
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    border: 0.0625rem solid var(--color-primary);
+    border-radius: 0.5rem;
     cursor: pointer;
 }
 
 #resume-button:hover {
-    border-color: #60bc09;
+    border-color: var(--color-hover);
 }
