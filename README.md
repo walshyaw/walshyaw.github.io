@@ -43,11 +43,17 @@ portfolio/
 ├── css/
 │   ├── styles.css
 │   ├── about.css
+│   ├── projects.css
+│   ├── resume.css
 │   ├── contact.css
 │   └── courses.css
 └── images/
     ├── favicon.ico
-    └── linkedIn.png
+    ├── linkedIn.png
+    ├── cpu-img.png
+    ├── palette.png
+    ├── minecraft-logo.png
+    └── green-folder-img.png
 ```
 
 ---
