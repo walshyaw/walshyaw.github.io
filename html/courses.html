@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/courses.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
     <title>alexander_walsh</title>
 </head>
 
+
 <body>
+
 
     <header>
         <div id="logo">
@@ -31,83 +35,106 @@
         </div>
     </header>
 
+
     <main>
-        <div id="courses-block">
-            <div id="courses-list">
-                <b>
-                <pre>--------------------------------------------------------------------------------------------------------------------------</pre>
-                <p class="course">Introduction to Computer Programming</p>
-                <p class="course">Advanced Programming with Data Structures</p>
-                <p class="course">Computer Systems</p>
-                <p class="course">Database Systems</p>
-                <p class="course">Operating Systems</p>
-                <p class="course">Advanced Data Structures/Algorithm Development</p>
-                <p class="course">Discrete Structures</p>
-                <p class="course">Web Technologies</p>
-                <pre>--------------------------------------------------------------------------------------------------------------------------</pre>
-                </b>
-            </div>
-        </div>
-        <div id="course-description-block">
-            <pre><b>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</b></pre>
-            <div id="course-descriptions">
-                <p class="course-description" id="COURSE_1">
-                    An introduction to the fundamentals of programming using a high-level, structured programming language such as C. 
-                    Emphasis will be placed on syntax and semantics of the language to write correct, efficient, and easily modifiable programs. 
+        <div id="courses-list">
+
+            <div class="course-item">
+                <p class="course">~/courses/intro_to_computer_programming</p>
+                <p class="course-description">
+                    An introduction to the fundamentals of programming using a high-level, structured programming language such as C.
+                    Emphasis will be placed on syntax and semantics of the language to write correct, efficient, and easily modifiable programs.
                     Topics include, but are not limited to, assignment statements, conditional and iterative control structures, functions, simple data structures, and software development.
                 </p>
-                <p class="course-description" id="COURSE_2">
-                    This course covers more advanced fundamentals of programming including problem-solving strategies, 
-                    the concept of an algorithm and basic data structures in an object-oriented language such as C++. 
-                    Various programming concepts will be introduced such as recursion, string processing, classes, sorting, 
+            </div>
+
+            <div class="course-item">
+                <p class="course">~/courses/advanced_programming_data_structures</p>
+                <p class="course-description">
+                    This course covers more advanced fundamentals of programming including problem-solving strategies,
+                    the concept of an algorithm and basic data structures in an object-oriented language such as C++.
+                    Various programming concepts will be introduced such as recursion, string processing, classes, sorting,
                     searching, linked lists, stacks, queues, and trees.
                 </p>
-                <p class="course-description" id="COURSE_3">
-                    An introduction to instruction set architecture, microarchitecture, and system architecture. 
-                    Topics include basic computer organization, central processor and memory, addressing techniques, data representation, 
-                    fundamental programming techniques in assembly and machine language as it relates to operating systems and high level languages. 
+            </div>
+
+            <div class="course-item">
+                <p class="course">~/courses/computer_systems</p>
+                <p class="course-description">
+                    An introduction to instruction set architecture, microarchitecture, and system architecture.
+                    Topics include basic computer organization, central processor and memory, addressing techniques, data representation,
+                    fundamental programming techniques in assembly and machine language as it relates to operating systems and high level languages.
                     The course also includes exposure to networking and communication as well as parallel and distributed computing.
                 </p>
-                <p class="course-description" id="COURSE_4">
-                    This course covers database design and the use of databases in web, mobile and cloud applications. 
-                    It includes extensive coverage of the relational model, relational algebra, and SQL as well as NoSQL designs. 
-                    The course also features database design and relational design principles based on dependencies and normal forms. 
-                    There will be a programming project, which explores database design and management by utilizing appropriate features of SQL. 
+            </div>
+
+            <div class="course-item">
+                <p class="course">~/courses/database_systems</p>
+                <p class="course-description">
+                    This course covers database design and the use of databases in web, mobile and cloud applications.
+                    It includes extensive coverage of the relational model, relational algebra, and SQL as well as NoSQL designs.
+                    The course also features database design and relational design principles based on dependencies and normal forms.
+                    There will be a programming project, which explores database design and management by utilizing appropriate features of SQL.
                 </p>
-                <p class="course-description" id="COURSE_5">
-                    An introduction to the various components of an operating system, including schedulers, 
-                    memory management, interrupt handling, resource allocation, security and protection. 
-                    Examples presented will be based on UNIX and other popular operating systems. 
-                    Each student will participate in projects that involve kernel modifications, shell scripting, 
-                    and simulations of components within the operating system. 
+            </div>
+
+            <div class="course-item">
+                <p class="course">~/courses/operating_systems</p>
+                <p class="course-description">
+                    An introduction to the various components of an operating system, including schedulers,
+                    memory management, interrupt handling, resource allocation, security and protection.
+                    Examples presented will be based on UNIX and other popular operating systems.
+                    Each student will participate in projects that involve kernel modifications, shell scripting,
+                    and simulations of components within the operating system.
                 </p>
-                <p class="course-description" id="COURSE_6">
-                    This course places the focus on algorithm development utilizing advanced data structures such as graphs and trees. 
-                    Various programming strategies will be addressed such as greedy, divide and conquer, backtracking, branch and bound and dynamic programming. 
-                    Other topics include recursion, algorithm analysis, object oriented programming and event driven programs. 
+            </div>
+
+            <div class="course-item">
+                <p class="course">~/courses/advanced_data_structures_algorithms</p>
+                <p class="course-description">
+                    This course places the focus on algorithm development utilizing advanced data structures such as graphs and trees.
+                    Various programming strategies will be addressed such as greedy, divide and conquer, backtracking, branch and bound and dynamic programming.
+                    Other topics include recursion, algorithm analysis, object oriented programming and event driven programs.
                 </p>
-                <p class="course-description" id="COURSE_7">
-                    This is an introductory course in discrete mathematical structures widely used computer science. 
-                    The purpose of this course is to understand and use (abstract) discrete structures that are backbones of computer science. 
-                    This course teaches the students techniques in how to think logically and mathematically and apply these techniques in solving problems. 
-                    In particular, this class is meant to introduce logic, proofs, sets, relations, functions, 
+            </div>
+
+            <div class="course-item">
+                <p class="course">~/courses/discrete_structures</p>
+                <p class="course-description">
+                    This is an introductory course in discrete mathematical structures widely used in computer science.
+                    The purpose of this course is to understand and use (abstract) discrete structures that are backbones of computer science.
+                    This course teaches the students techniques in how to think logically and mathematically and apply these techniques in solving problems.
+                    In particular, this class is meant to introduce logic, proofs, sets, relations, functions,
                     counting, and probability, with an emphasis on applications in computer science.
                 </p>
-                <p class="course-description" id="COURSE_8">
-                    A study of advanced web technologies with an emphasis on full stack development including 
-                    usage of a database to facilitate the retention and delivery of information. 
-                    Various scripting languages such as PHP and JavaScript will be used during the course. 
+            </div>
+
+            <div class="course-item">
+                <p class="course">~/courses/web_technologies</p>
+                <p class="course-description">
+                    A study of advanced web technologies with an emphasis on full stack development including
+                    usage of a database to facilitate the retention and delivery of information.
+                    Various scripting languages such as PHP and JavaScript will be used during the course.
                     Each student will participate in a series of projects that will focus on creation of a dynamic interactive web site.
                 </p>
-                <pre><b>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</b></pre>
             </div>
+
+            
         </div>
     </main>
+
 
     <footer>
         <p>&copy; Alexander Walsh 2026</p>
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+
 </body>
+
 
 </html>
