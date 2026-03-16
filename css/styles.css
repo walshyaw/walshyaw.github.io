@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    min-width: 100vw;
     margin: 0;
     display: flex;
     background-color: black;
@@ -18,16 +19,22 @@ body a:hover {
 }
 
 header {
+    width: 100vw;
     color: #4e9a06;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
     box-shadow: 0 0.005rem 0.30rem #4e9a06;
 }
 
 #logo {
     padding-left: 0.625rem;
+}
+
+#logo p {
+    margin: 0;
 }
 
 header nav ul {
@@ -61,6 +68,7 @@ main {
 
 footer {
     padding: 1rem;
+    min-width: 100vw;
     text-align: center;
     box-shadow: 0 -0.005rem 0.30rem #4e9a06;
     font-size: small;
