@@ -69,12 +69,3 @@ main {
 .course-item:hover .course {
     color: var(--color-hover);
 }
-
-#courses-list {
-    padding: var(--spacing-md) 0;
-}
-
-#courses-list pre {
-    margin: 0;
-    overflow: hidden;
-}
