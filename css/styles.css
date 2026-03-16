@@ -1,36 +1,46 @@
+:root {
+    --color-bg: black;
+    --color-primary: #4e9a06;
+    --color-hover: #60bc09;
+    --spacing-sm: 0.625rem;
+    --spacing-md: 1rem;
+    --ascii-offset: 15rem;
+}
+
 body {
     min-height: 100vh;
-    min-width: 100vw;
     margin: 0;
+    overflow-x: hidden;
     display: flex;
-    background-color: black;
-    color: #4e9a06;
     flex-direction: column;
+    background-color: var(--color-bg);
+    color: var(--color-primary);
     font-family: 'Fira Code', monospace;
 }
 
 body a {
     text-decoration: none;
-    color: #4e9a06;
+    color: var(--color-primary);
 }
 
 body a:hover {
-    color: #60bc09;
+    color: var(--color-hover);
 }
 
 header {
-    width: 100vw;
-    color: #4e9a06;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    box-shadow: 0 0.005rem 0.30rem #4e9a06;
+    padding: var(--spacing-sm);
+    color: var(--color-primary);
+    box-shadow: 0 0 0.3rem var(--color-primary);
 }
 
 #logo {
-    padding-left: 0.625rem;
+    padding-left: var(--spacing-sm);
 }
 
 #logo p {
@@ -40,16 +50,16 @@ header {
 header nav ul {
     display: flex;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 header nav li {
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
+    padding: 0 var(--spacing-sm);
 }
 
 main {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,15 +73,15 @@ main {
 }
 
 #ascii-block {
-    padding-right: 15rem;
+    padding-right: var(--ascii-offset);
 }
 
 footer {
-    padding: 1rem;
-    min-width: 100vw;
+    width: 100%;
+    padding: var(--spacing-md);
     text-align: center;
-    box-shadow: 0 -0.005rem 0.30rem #4e9a06;
-    font-size: small;
+    font-size: 0.875rem;
+    box-shadow: 0 0 0.3rem var(--color-primary);
 }
 
 .pdf {
