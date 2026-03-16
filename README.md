@@ -70,5 +70,3 @@ portfolio/
 | LinkedIn | [amwalshh](https://linkedin.com/in/amwalshh) |
 
 ---
-
-*&copy; Alexander Walsh 2026*
