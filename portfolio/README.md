@@ -31,29 +31,47 @@ My portfolio website as a Computer Science student at High Point University conc
 ## Project Structure
 
 ```
-portfolio/
+portfolio
+├── css
+│   ├── about.css
+│   ├── contact.css
+│   ├── courses.css
+│   ├── projects.css
+│   ├── resume.css
+│   └── styles.css
+├── html
+│   ├── about.html
+│   ├── contact.html
+│   ├── courses.html
+│   ├── projects.html
+│   └── resume.html
+├── images
+│   ├── cpu-img.png
+│   ├── favicon.ico
+│   ├── green-folder-img.png
+│   ├── linkedIn.png
+│   ├── minecraft-logo.png
+│   ├── palette.png
+│   └── wireframes
+│       ├── wireframe_1_index_html.png
+│       ├── wireframe_2_resume_html.png
+│       ├── wireframe_3_courses_html.png
+│       ├── wireframe_4_contact_html.png
+│       ├── wireframe_5_projects_html.png
+│       └── wireframe_6_about_html.png
 ├── index.html
 ├── README.md
-├── html/
-│   ├── about.html
-│   ├── contact.html
-│   ├── courses.html
-│   ├── projects.html
-│   └── resume.html
-├── css/
-│   ├── styles.css
-│   ├── about.css
-│   ├── projects.css
-│   ├── resume.css
-│   ├── contact.css
-│   └── courses.css
-└── images/
-    ├── favicon.ico
-    ├── linkedIn.png
-    ├── cpu-img.png
-    ├── palette.png
-    ├── minecraft-logo.png
-    └── green-folder-img.png
+├── requirements
+│   ├── Online Portfolio Requirements.pdf
+│   ├── walsh_Alexander_Resume.pdf
+│   └── Web Design Best Practices Checklist.pdf
+└── validation
+    ├── about_css_validation.png
+    ├── about_html_validation.png
+    ├── index_html_validation.png
+    ├── resume_css_validation.png
+    ├── resume_html_validation.png
+    └── styles_css_validation.png
 ```
 
 ---
