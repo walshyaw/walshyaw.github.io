@@ -1,13 +1,14 @@
-title: Alexander Walsh
-description: Home
+title: Walsh
 
 theme: just-the-docs
 
 url: "https://alexanderwalsh.dev"
 baseurl: ""
 
-search_enabled: true
+search_enabled: false
 heading_anchors: true
-color_scheme: dark
+color_scheme: custom
+favicon_ico: "/portfolio/images/favicon.ico"
+logo: "/portfolio/images/favicon.ico"
 
-footer_content: "Copyright &copy; 2026 Alex Walsh"
+footer_content: "Copyright &copy; 2026 Alexander Walsh"
