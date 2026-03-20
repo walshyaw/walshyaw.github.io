@@ -1,0 +1,29 @@
+.main-content ul > li::before {
+  color: #4e9a06;
+}
+
+.site-logo {
+  background-position: center center !important;
+}
+
+.site-title:hover {
+  background-image: none;
+  box-shadow: 0 0 0.3rem #4e9a06;
+}
+
+@media (min-width: 50rem) {
+  .site-header {
+    border-left: 1px solid rgba(0, 255, 65, 0.2);
+  }
+}
+
+@media (min-width: 50rem) {
+  .site-nav {
+    border-left: 1px solid rgba(0, 255, 65, 0.2);
+  }
+}
+
+.nav-list .nav-list-item .nav-list-link.active {
+    background-image: none;
+    box-shadow: 0 0 0.3rem #4e9a06;
+}
