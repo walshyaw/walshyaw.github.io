@@ -1,9 +1,9 @@
 title: Alexander Walsh
 description: Home
 
-theme: just-the-docs
+remote_theme: just-the-docs
 
-url: "https://walshyaw.github.io"
+url: "https://alexanderwalsh.dev"
 baseurl: ""
 
 # Optional but recommended
