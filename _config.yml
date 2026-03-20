@@ -1,0 +1,17 @@
+title: Alexander Walsh
+description: Home
+
+theme: just-the-docs
+
+url: "https://walshyaw.github.io"
+baseurl: ""
+
+# Optional but recommended
+search_enabled: true
+heading_anchors: true
+
+# Color scheme: "light" (default) or "dark"
+color_scheme: dark
+
+# Footer content
+footer_content: "Copyright &copy; 2026 Alex Walsh"
