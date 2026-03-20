@@ -1,17 +1,13 @@
 title: Alexander Walsh
 description: Home
 
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
 url: "https://alexanderwalsh.dev"
 baseurl: ""
 
-# Optional but recommended
 search_enabled: true
 heading_anchors: true
-
-# Color scheme: "light" (default) or "dark"
 color_scheme: dark
 
-# Footer content
 footer_content: "Copyright &copy; 2026 Alex Walsh"
