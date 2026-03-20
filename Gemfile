@@ -5,4 +5,4 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem "jekyll", "~> 4.4"
-gem "just-the-docs/just-the-docs"
+gem "just-the-docs"
