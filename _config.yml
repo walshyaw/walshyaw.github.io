@@ -11,4 +11,7 @@ color_scheme: custom
 favicon_ico: "/portfolio/images/favicon.ico"
 logo: "/portfolio/images/favicon.ico"
 
-footer_content: "Copyright &copy; 2026 Alexander Walsh"
+footer_content: >
+  contact@alexanderwalsh.dev
+  <br/>
+  Copyright &copy; 2026 Alexander Walsh
