@@ -52,7 +52,7 @@ portfolio
 │   ├── linkedIn.png
 │   ├── minecraft-logo.png
 │   ├── palette.png
-│   └── wireframes
+│   └── wireframes (.gitignore)
 │       ├── wireframe_1_index_html.png
 │       ├── wireframe_2_resume_html.png
 │       ├── wireframe_3_courses_html.png
@@ -60,18 +60,25 @@ portfolio
 │       ├── wireframe_5_projects_html.png
 │       └── wireframe_6_about_html.png
 ├── index.html
+├── pdfs
+│   └── walsh_Alexander_Resume.pdf
 ├── README.md
-├── requirements
+├── requirements (.gitignore)
 │   ├── Online Portfolio Requirements.pdf
-│   ├── walsh_Alexander_Resume.pdf
 │   └── Web Design Best Practices Checklist.pdf
-└── validation
-    ├── about_css_validation.png
-    ├── about_html_validation.png
-    ├── index_html_validation.png
-    ├── resume_css_validation.png
-    ├── resume_html_validation.png
-    └── styles_css_validation.png
+└── validation (.gitignore)
+    ├── about_css_valid.png
+    ├── about_html_valid.png
+    ├── contact_css_valid.png
+    ├── contact_html_valid.png
+    ├── courses_css_valid.png
+    ├── courses_html_valid.png
+    ├── index_html_valid.png
+    ├── projects_css_valid.png
+    ├── projects_html_valid.png
+    ├── resume_css_valid.png
+    ├── resume_html_valid.png
+    └── styles_css_valid.png
 ```
 
 ---
