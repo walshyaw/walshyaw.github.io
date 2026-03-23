@@ -6,6 +6,8 @@ nav_order: 4
 
 # CPU Scheduling Simulator
 
+---
+
 **Repository:** [https://github.com/walshyaw/CPU-Scheduler](https://github.com/walshyaw/CPU-Scheduler)
 
 This project simulates four CPU scheduling algorithms (FCFS, Priority, SRTF, and Round Robin) written in C++. It reads process data from an input file and outputs per-time-unit PCB traces, Gantt charts, and average scheduling metrics for each algorithm. The simulator covers both non-preemptive and preemptive scheduling strategies for side-by-side comparison.
