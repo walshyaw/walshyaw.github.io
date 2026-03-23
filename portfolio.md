@@ -8,6 +8,7 @@ nav_order: 2
 
 ---
 
+**Repository:** [https://github.com/walshyaw/walshyaw.github.io](https://github.com/walshyaw/walshyaw.github.io)
 **View Portfolio:** [https://alexanderwalsh.dev/portfolio/index.html](https://alexanderwalsh.dev/portfolio/index.html)
 
 A terminal-inspired portfolio showcasing my work as a Computer Science student at High Point University, concentrating in Cybersecurity. Built with HTML5, CSS3, and Bootstrap using a Linux shell aesthetic, it features my projects, coursework, resume, and contact info wrapped in a clean design.
