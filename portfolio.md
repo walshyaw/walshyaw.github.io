@@ -8,6 +8,8 @@ nav_order: 2
 
 My portfolio as a Computer Science student at High Point University concentrating in Cybersecurity.
 
+## [View Portfolio](https://alexanderwalsh.dev/portfolio/index.html)
+
 ---
 
 ## Pages
