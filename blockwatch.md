@@ -6,13 +6,11 @@ nav_order: 3
 
 # Blockwatch
 
+**Repository:** [https://github.com/walshyaw/Blockwatch](https://github.com/walshyaw/Blockwatch)
+
 This project is a simple Discord bot that enables users to see the status of a Minecraft server at any given time straight from their own Discord server. It is compatible with Java and Bedrock and will work with any version of the game above 1.7.
 
-## Authors
-
-- [@walshyaw](https://github.com/walshyaw)
-
-
+---
 
 ## Features
 
