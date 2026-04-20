@@ -6,6 +6,8 @@ nav_order: 5
 
 # Vulnerability Tracker
 
+---
+
 **Repository:** [https://github.com/walshyaw/vulntrack](https://github.com/walshyaw/vulntrack)
 
 A simple web application for logging and tracking CVE vulnerabilities, built with PHP and MariaDB.
