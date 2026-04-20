@@ -29,8 +29,8 @@ project/
 ├── css/
 │ └── styles.css
 └── fonts/
-├── DinaRemasterII.woff2
-└── DinaRemasterII-Bold.woff2
+  ├── DinaRemasterII.woff2
+  └── DinaRemasterII-Bold.woff2
 ```
 
 ## Setup
